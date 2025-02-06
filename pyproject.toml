@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "pyauser"
+version = "0.1.0"
+description = ""
+authors = ["justt1n <tinnt0709@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = {extras = ["all"], version = "^0.115.8"}
+pydantic = "^2.10.6"
+sqlalchemy = "^2.0.37"
+bcrypt = "^4.2.1"
+python-dotenv = "^1.0.1"
+uvicorn = "^0.34.0"
+python-jose = {extras = ["cryptography"], version = "^3.3.0"}
+passlib = {extras = ["bcrypt"], version = "^1.7.4"}
+python-multipart = "^0.0.20"
+pymongo = "^4.11"
+mysql-connector-python = "^9.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
